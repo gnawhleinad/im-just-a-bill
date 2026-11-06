@@ -1,0 +1,8 @@
+[tools]
+deno = "latest"
+
+[env]
+_.path = ["{{env.HOME}}/.deno/bin"]
+
+[tasks.install]
+run = "deno install -grAf jsr:@valtown/vt"
