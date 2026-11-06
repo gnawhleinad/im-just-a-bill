@@ -29,5 +29,5 @@ jobs:
 
     - run: |
         vt push
-       env:
-         VAL_TOWN_API_KEY: ${{ secrets.VAL_TOWN_API_KEY }}
+      env:
+        VAL_TOWN_API_KEY: ${{ secrets.VAL_TOWN_API_KEY }}
